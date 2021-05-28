@@ -1,0 +1,72 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden ;
+    position: relative;
+    font-family: sans-serif;
+    line-height: 1.7em;
+}
+.firstButton{
+    width: max-content;
+    background-color: #011640;
+    border: 1px solid #011640;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.secondButton{
+    background-color: #000818;
+    color: #FFFFFF;
+}
+.firstButton:hover{
+    background-color: #F0F5FF;
+    color: #011640;
+}
+.btn{
+    transition: transform .2s ;
+}
+.secondButton:hover{
+    background-color: #000308;
+    color: #FFFFFF;
+}
+.marquee{
+    font-family:  "Bebas Neue";
+    font-weight: normal;
+    font-size: 3em;
+    color: #011640;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.line1{
+    border-left: 3px solid black;
+    border-bottom: 3px solid black; 
+    border-radius: 0px 0px 0px 8px;
+    width: 90%;
+}
+#hi{
+    background-color: rgb(102, 209, 116);
+    width: max-content;
+    color: white;
+    min-height: 30px;
+    text-align: start;
+    border-radius: 10px;
+    display: none;
+}
+.mob{
+    width: 75%;
+}
+.para{
+    max-width: 80%;
+}
+@media only screen and (max-width:768px){
+    .para{
+        max-width: 100%;
+    }
+    .mob{
+        width: 90%;
+    }
+}

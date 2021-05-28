@@ -1,0 +1,41 @@
+
+.container{
+    border: 1px solid #011640;
+    border-radius: 10px;
+    z-index: 1;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Stranger\ back\ in\ the\ Night.ttf);
+}
+h2{
+    font-family: myFirstFont;
+    font-size: 4em;
+}
+p{
+    display: none;
+    color: red;
+}
+input{
+    width: 80%;
+    border: 0px;
+    border-bottom: 2px solid #011640;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #011640;
+}
+@media only screen and (max-width:768px) {
+    .container{
+        border: 0px;
+    }
+    input{
+        width: 90%;
+    }
+}
+@media only screen and (min-width:768px) {
+    html,body{
+        height: 100%;
+        background-color: rgba(255, 255, 255, .3);
+    }
+}

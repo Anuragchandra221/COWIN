@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header style="background-color: #F0F5FF;">
+        <h2 class="marquee text-center pt-3">TAKE YOUR VACCINES</h2>
+        <div id="hi" class="mt-4 mx-5 px-3"><div style="margin: auto; padding:2px"> <span style="border: 2px solid white; border-radius: 50%; padding:2px;"><i class="fa fa-check text-white" aria-hidden="true"></i></span> Registered Successfully</div></div>
+        <div class="container py-2 py-md-5" style="max-width: 90%;">
+            <div class="row mt-3">
+                <div class="col-md-6 d-flex align-items-center justify-content-center" >
+                    <div>
+                        <h2 class="my-4" style="color: #011640;">IT'S TIME TO VACCINATE...</h2>
+                        <p style="max-width: 70%;color: #57566b;" class="mb-4">"Vaccines are a miracle cure. Eight out of 10 children are getting vaccines" -Melinda Gates</p>
+                        <a href="#register"><button class="btn btn-small firstButton">Register Here</button></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <img class="img-fluid" src="images/undraw_medicine_b1ol.svg" alt="" style="width: inherit;">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section style="background-image: linear-gradient(180deg, #F0F5FF 50%,#011640 50% );">
+        <div class="container-fluid px-4 px-md-5 pb-2">
+            <div class="row  shadow p-3 px-2  py-5" style="background: #fbfcfd;z-index: 1;">
+                <div class="col-md-6 mb-4 mb-md-0 pt-4" >
+                    <div class="d-flex align-items-center pt-4 pt-md-0" style="flex-direction: column;">
+                        <h3 style="color: #011640;">VACCINATION IN INDIA
+                            <hr style="border: 1px solid #011640;" />
+                        </h3>
+                        <p style="color: #738290;" class="para">India began administration of COVID-19 vaccines on 16 January 2021. As of 22 May 2021, India has administered 195,004,184 doses overall, including first and second doses of the currently-approved vaccines.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-4" >
+                    <div class="d-flex align-items-center" style="flex-direction: column;">
+                        <h3 style="color: #011640;">VACCINES...
+                            <hr style="border: 1px solid #011640;" />
+                        </h3>
+                        <p style="color: #738290;"  class="para">Two vaccines received approval for emergency use in India at the onset of the programme, i.e., i) Covishield (a brand of the Oxford–AstraZeneca vaccine manufactured by the Serum Institute of India) and ii) Covaxin (developed by Bharat Biotech). In April 2021, Sputnik V (distributed by Dr. Reddy's Laboratories) was approved as a third vaccine, which was deployed by May 2021.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5" style="background-color:#011640;" id="register">
+        <div class="container py-md-5">
+            <div class="row py-md-5">
+                <div class="col-md-6 d-flex align-items-md-center py-md-5 my-0" style="flex-direction: column;">
+                    <h3 style="color: #F0F5FF;">Register Here</h3>
+                    <p style="color: #F0F5FF;">Enter Your Phone Number And Find Your Spot</p> 
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-center py-2 py-md-5">
+                    <div class="mob">
+                        <input class="mb-md-4" type="text" style="width: 100%;" placeholder="Phone Number..." id="frm"><br/>
+                        <p style="color: white;" id="err"></p>
+                        <button class="btn btn-small secondButton" onclick="go()" >Find Place</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pb-5" style="background-image: linear-gradient(180deg,#011640 50%,#F0F5FF 50% );">
+        <div class="container-fluid px-4 px-md-5 pb-2">
+            <div class="row  shadow p-3 px-2  py-5" style="background: #fbfcfd;z-index: 1;">
+                <div class="col-md-6 mb-4 mb-md-0 pt-4" >
+                    <div class="d-flex align-items-center pt-4 pt-md-0" style="flex-direction: column;">
+                        <h3 style="color: #011640;">COVAXIN
+                            <hr style="border: 1px solid #011640;" />
+                        </h3>              
+                            <ul class="para">
+                                <li style="color: #738290;" >Covaxin has been developed by Hyderabad-based Bharat Biotech International Ltd in association with the Indian Council of Medical Research (ICMR) and the National Institute of Virology (NIV).</li>
+                                <li style="color: #738290;" >Covaxin is an inactivated vaccine, which has been prepared on a tried and tested platform of dead viruses.</li>
+                                <li style="color: #738290;">Covaxin’s efficiency 81% according to interim 3rd phase trial results.</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 pt-4" >
+                    <div class="d-flex align-items-center" style="flex-direction: column;">
+                        <h3 style="color: #011640;">COVISHIELD
+                            <hr style="border: 1px solid #011640;" />
+                        </h3>
+                        <ul class="para">
+                            <li style="color: #738290;">Covishield has been developed by the Oxford-AstraZeneca and is being manufactured by the Serum Institute of India (SII).</li>
+                            <li style="color: #738290;">Covishield has been prepared using the viral vector platform which is a totally different technology.</li>
+                            <li style="color: #738290;" >The effectiveness of the Covishield vaccine is nearly 90% as per the global reports.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5" style="background-color: #011640; ">
+        <div class="container d-flex justify-content-center align-items-center" style="flex-direction: column;">
+            <div class="row"  style="width: 100%;">
+                <div class="col-md-6 d-flex justify-content-center"><p style="color: #ffffff;">Helpline Number : +91-11-23978046</p></div>
+                <div class="col-md-6 d-flex justify-content-center"><p style="color: #ffffff;">Toll Free Number: 1075</p></div>
+            </div>
+            <div class="mt-4 d-flex justify-content-center" style="color: #ffffff;"><p class="text-center">&copy; This is a demo site, View original registration site <a href="https://www.cowin.gov.in/home">here .</a></p></div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
